@@ -1,11 +1,12 @@
 .text {
-  color: var(--color-gray);
+  color: rgb(146, 145, 145);
   font-size: var(--font-medium);
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .counter {
-  font-size: 32px;
-  font-weight: 900;
-  color: var(--color-accent);
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(70, 70, 243);
 }
+
