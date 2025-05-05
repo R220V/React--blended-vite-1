@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 
-  width: 400px;
+  width: 560px;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
@@ -62,6 +62,10 @@
 
 .avatar {
   border-radius: 50%;
+}
+
+.avatar:hover {
+  transform: scale(1.2);
 }
 
 .userName {

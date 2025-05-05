@@ -1,9 +1,10 @@
 .board {
-  width: 480px;
+  width: 560px;
   border-radius: 12px;
-
   margin: 0 auto;
   overflow: hidden;
+  border: 2px solid teal;
+ 
 }
 
 .header {
@@ -29,7 +30,7 @@
 .titleBottom {
   font-size: var(--font-small);
   font-weight: 300;
-  letter-spacing: 2.6px;
+  letter-spacing: 3.6px;
 }
 
 .list {
@@ -38,6 +39,8 @@
   padding: 12px 20px;
   display: grid;
   row-gap: 8px;
+  border: 2px solid teal;
+  background-color: #a2c8ec27;
 }
 
 .item {
@@ -61,5 +64,7 @@
   &:hover {
     transform: scale(1.02);
     box-shadow: var(--shadow-small);
+    border: 1px solid var(--color-accent);;
+    background-color: #eaecee;
   }
 }
